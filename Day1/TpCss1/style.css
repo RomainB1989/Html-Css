@@ -1,0 +1,29 @@
+h1{
+    color: red;
+    text-align: center;
+    text-shadow: 2px 2px orangered;
+}
+a{
+    border-radius: 10;
+    align-self: center;
+    font-size: 1.5em;
+    background-color: red;
+    opacity: 50%;
+    color: yellowgreen;
+    box-shadow: 10px 5px 10px red;
+}
+
+#contenu{
+    background-color: lightgray;
+    text-align: center;
+    margin: auto;
+}
+
+#contenu + div{
+    text-align: center;
+    margin: auto;
+}
+
+#contenu + div p{
+    font-size: 2em;
+}
