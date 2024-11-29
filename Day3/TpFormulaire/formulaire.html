@@ -1,0 +1,45 @@
+<DOCTYPE html>
+    <html lang="fr">
+        <head>
+            <meta charset="utf8" />
+            <title>Cours de Html/Css</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <form action="">
+                <fieldset>
+                    <legend>Infos Personnelles :</legend>
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="Ex: Jacques" max="20" min="2"><br>
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" placeholder="Ex: Dubois" max="20" min="2"><br>
+                    <label for="mail">Email :</label>
+                    <input type="text" id="mail" name="mail" placeholder="Ex: monMail@FAI.com"><br>
+                    <label for="tel">Numero de Téléphone :</label>
+                    <input type="text" id="tel" name="tel" placeholder="Ex: 00.11.22.33.44"><br>
+                    <label for="password">Mot de Passe :</label>
+                    <input type="password" id="password" name="password" placeholder="***********" required min="8" max="30"><br>
+                    <label for="number">Votre Age :</label>
+                    <input type="number" id="age" name="age" placeholder="Ex: 24"><br>
+                    <label for="commentaire">Laissez un Commentaire :</label><br>
+                    <textarea name="commentaire" id="commentaire" cols="70" rows="10" placeholder="J'adore ce que vous faites !"></textarea><br>
+                    <label for="dateCommentaire">Date de mon Commentaire :</label>
+                    <input type="date" id="dateCommentaire" name="dateCommentaire" min="1900/01/01" max="2024/12/01"><br>
+                    <label for="fichier">Ma Photo :</label>
+                    <input type="file" id="fichier" name="fichier"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Vous Préferez :</legend>
+                    <input type="checkbox" id="checkHtml" name="checkHtml" checked>
+                    <label for="checkHtml">Le Html</label><br>
+                    <input type="checkbox" id="checkCss" name="checkCss">
+                    <label for="checkCss">Le Css</label><br>
+                    <input type="checkbox" id="checkJs" name="checkJs">
+                    <label for="checkJs">Le JavaScript</label><br>
+                    <input type="checkbox" id="check" name="check">
+                    <label for="checkHtml">Ne rien faire</label><br>
+                </fieldset>
+                <input type="submit" value="Envoyer">
+            </form>
+        </body>
+    </html>

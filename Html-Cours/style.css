@@ -1,0 +1,83 @@
+h1, h2, h3, h4, h5{
+    color:darkblue;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+}
+
+h2{
+    text-align: left;
+    font-size: 1.5em;
+}
+
+h3{
+    text-align: left;
+    font-size: 1.2em;
+}
+
+
+h4{
+    text-align: left;
+    font-size: 1.1em;
+}
+
+table{
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blueviolet;
+    border-collapse: collapse;
+}
+
+caption{
+    color: blueviolet;
+}
+
+thead th{
+    background-color: aqua;
+    border-style:solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+tbody td{
+    background-color: aliceblue;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+form{
+    background-color:lightblue;
+    text-align: center;
+    width: 30%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blueviolet;
+}
+
+form h4{
+    text-align: center;
+}
+
+input{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+textarea{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+a{
+    color: blueviolet;
+}
+
+a:visited{
+    color: brown;
+}

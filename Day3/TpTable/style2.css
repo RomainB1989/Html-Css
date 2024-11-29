@@ -1,0 +1,124 @@
+h1{
+    background: linear-gradient(90deg, #30bd11 4%, #1492f3 40%, #da0c5e 100%);
+    color: transparent;
+    background-clip: text;
+    font-size: 3em;
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blueviolet;
+    border-collapse: collapse;
+    animation-duration: 3s;
+    /* animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ */
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+/* table:hover{
+    color: white;
+    width: 90%;
+    height: 80%;
+    animation-duration: 1s;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+} 
+*/
+
+
+table:active{
+    animation-duration: 1s;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+    transform: rotate(360deg);
+    }
+}
+
+caption{
+    color: black;
+}
+
+thead th{
+    background-color: aqua;
+    border-style:solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+tbody td{
+    background-color: aliceblue;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+a{
+    color: blueviolet;
+}
+
+a:visited{
+    color: brown;
+}
+
+.gradientRGB{
+    background: blue;
+    background: linear-gradient(to right, blue , green , red);
+    border-style:solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.gradientCalifornia {
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.gradientCalifornia2 {
+    background-color: #FFE53B;
+    background-image: linear-gradient(-70deg, #FFE53B 0%, #FF2525 74%);
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.gradientWhiteBlack{
+    background: repeating-radial-gradient(black,  white 10px);
+}
+
+.gradientWhiteBlack:hover{
+    background: repeating-radial-gradient(white,  black 10px);
+}
+
+a{
+    color: blueviolet;
+}
+
+a:visited{
+    color: brown;
+}
