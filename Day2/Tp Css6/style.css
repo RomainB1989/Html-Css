@@ -12,15 +12,27 @@ div, p{
 #d1{
     background: blue;
     background: linear-gradient(to top right, blue , green , red);
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 #d2{
     background: purple;
     background: linear-gradient(-70deg, yellow, purple 25%);
+    animation-duration: 3s;
+    animation-name: slideout;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 #d3{
     background: radial-gradient(lightblue, pink);
+    animation-duration: 3s;
+    animation-name: slideout;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 #d3:active{
@@ -29,6 +41,10 @@ div, p{
 
 #d4{
     background: repeating-radial-gradient(black,  white 10px);
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 #d4:hover{
@@ -38,4 +54,32 @@ div, p{
 p{
     background: rgb(255,255,255,1);
     background: linear-gradient(to bottom, white , rgba(0,0,0,0.5));
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+@keyframes slideout {
+    from {
+      margin-left: 0%;
+      width: 100%;
+    }
+
+    to {
+      margin-left: 100%;
+      width: 300%;
+    }
 }

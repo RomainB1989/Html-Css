@@ -1,0 +1,51 @@
+h1{
+    color: red;
+    text-align: center;
+    font-size: 3em;
+}
+
+h3{
+    color: blue;
+    font-size: 2em;
+}
+
+h3:active {
+    color: black;
+}
+
+#h3A2{
+    color: green;
+    text-align: right;
+    text-decoration-line: underline;
+}
+
+p{
+    background-color: gray;
+}
+
+#p1{
+    background-image: url(https://www.larousse.fr/encyclopedie/data/images/1314792-%C3%8Ele-de-France_la_Brie.jpg);
+}
+
+#p1:hover {
+    color: #FFFFFF;
+}
+
+#p3{
+    background-color: pink;
+}
+
+strong{
+    font-style: normal;
+    color: yellowgreen;
+}
+
+em{
+    font-style: normal;
+    text-decoration-line: underline;
+    font-size: 1.5em;
+    color: orange;
+}
+#p3{
+    background-color: pink;
+}
