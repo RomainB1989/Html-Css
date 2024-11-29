@@ -1,0 +1,41 @@
+div, p{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+#d1{
+    background: blue;
+    background: linear-gradient(to top right, blue , green , red);
+}
+
+#d2{
+    background: purple;
+    background: linear-gradient(-70deg, yellow, purple 25%);
+}
+
+#d3{
+    background: radial-gradient(lightblue, pink);
+}
+
+#d3:active{
+    background: radial-gradient(blue, purple);
+}
+
+#d4{
+    background: repeating-radial-gradient(black,  white 10px);
+}
+
+#d4:hover{
+    background: repeating-radial-gradient(white,  black 10px);
+}
+
+p{
+    background: rgb(255,255,255,1);
+    background: linear-gradient(to bottom, white , rgba(0,0,0,0.5));
+}

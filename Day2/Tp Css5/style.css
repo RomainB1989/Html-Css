@@ -1,0 +1,14 @@
+body{
+    background-color: blueviolet;
+}
+
+div{
+    opacity: 0.8;
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    margin-top: 250px;
+    background-color: rgb(55, 100, 173);
+    box-shadow: -10px -10px 25px  rgba(255, 255, 255, 1), 10px 10px 25px  rgba(0, 0, 0, 1);
+
+}
