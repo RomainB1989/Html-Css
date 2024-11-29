@@ -39,7 +39,40 @@
                     <input type="checkbox" id="check" name="check">
                     <label for="checkHtml">Ne rien faire</label><br>
                 </fieldset>
-                <input type="submit" value="Envoyer">
+                <fieldset>
+                    <legend>Vous vous levez :</legend>
+                    <input type="radio" id="matin" name="timeWake">
+                    <label for="matin">Le matin</label><br>
+                    <input type="radio" id="midi" name="timeWake">
+                    <label for="midi">Le midi</label><br>
+                    <input type="radio" id="soir" name="timeWake">
+                    <label for="soir">Le soir</label><br>
+                    <input type="radio" id="retard" name="timeWake">
+                    <label for="retard">En retard !!!!</label><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Fin du formulaire</legend>
+                    <label for="menu">Vous en avez assez ?</label>
+                    <select name="menu" id="menu">
+                        <optgroup label="Team Encore">
+                            <option value="option1">J'en veux plus</option>
+                            <option value="option2">c'est Super !</option>
+                        </optgroup>
+                        <optgroup label="Team Oula">
+                            <option value="option1">J'en ai marre</option>
+                            <option value="option2">Pitié !</option>
+                        </optgroup>
+                    </select><br>
+                    <!-- <input list="opinion">
+                    <datalist id="opinion">
+                        <option value="J'en veux plus">
+                        <option value="c'est Super !">
+                        <option value="J'en ai marre">
+                        <option value="En Retard !">
+                    </datalist><br> -->
+                    <input type="submit" value="Envoyer">
+                    <input type="reset" value="Reset">
+                </fieldset>
             </form>
         </body>
     </html>

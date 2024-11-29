@@ -16,73 +16,88 @@
             <h2>Propriétés Courantes :</h2>
             <h2>Pseudo-Classes :</h2>
             <h2>Ombres :</h2>
+
             <h2>Dégradés :</h2>
+
             <h2>Les Tableaux :</h2>
 
             <h3>Exemple d'un tableau :</h2>
-            <table>
-                <caption><b>Mon Tableau</b></caption>
-                <thead>
-                    <th>En tete 1</th>
-                    <th>En tete 2</th>
-                    <th>En tete 3</th>
-                    <th>En tete 4</th>
-                </thead>
-                <tbody>
-                    <tr><td colspan="4">"C'est la 1ère ligne du tableau"</td></tr>
-                    <tr>
-                        <td>A</td>
-                        <td rowspan="3">B</td>
-                        <td>C</td>
-                        <td>D</td>
-                    </tr>
-                    <tr>
-                        <td>E</td>
-                        <td>F</td>
-                        <td>G</td>
-                    </tr>
-                    <tr>
-                        <td>H</td>
-                        <td>I</td>
-                        <td rowspan="2">J</td>
-                    </tr>
-                    <tr><td colspan="3">"C'est la fin"</td></tr>
-                </tbody>
-            </table>
+            <div class="exemple">
+                <table>
+                    <caption><b>Mon Tableau</b></caption>
+                    <thead>
+                        <th>En tete 1</th>
+                        <th>En tete 2</th>
+                        <th>En tete 3</th>
+                        <th>En tete 4</th>
+                    </thead>
+                    <tbody>
+                        <tr><td colspan="4">"C'est la 1ère ligne du tableau"</td></tr>
+                        <tr>
+                            <td>A</td>
+                            <td rowspan="3">B</td>
+                            <td>C</td>
+                            <td>D</td>
+                        </tr>
+                        <tr>
+                            <td>E</td>
+                            <td>F</td>
+                            <td>G</td>
+                        </tr>
+                        <tr>
+                            <td>H</td>
+                            <td>I</td>
+                            <td rowspan="2">J</td>
+                        </tr>
+                        <tr><td colspan="3">"C'est la fin"</td></tr>
+                    </tbody>
+                </table>
+            </div>
             <h2>Les Formulaires :</h2>
 
             <h3>Exemple d'un Formulaire de Création de Compte :</h2>
-            <form action="">
-                <fieldset>
-                    <legend>Informations Personnelles :</legend>
-                    <h4><b>Créér votre Compte :</h4></b></h4><br>
-                    <label for="prenom">Prénom :</label>
-                    <input type="text" id="prenom" name="prenom" placeholder="Ex: Jacques" max="20" min="2" required><br><br>
-                    <label for="nom">Nom :</label>
-                    <input type="text" id="nom" name="nom" placeholder="Ex: Dubois" max="20" min="2" required><br><br>
-                    <label for="mail">Adresse Mail :</label>
-                    <input type="text" id="mail" name="mail" placeholder="Ex: monMail@FAI.com" required><br><br>
-                    <label for="password">Mot de Passe :</label>
-                    <input type="password" id="password" name="password" placeholder="***********" required><br><br>
-                    <label for="password">Confirmer Mot de Passe :</label>
-                    <input type="password" id="password" name="password" placeholder="***********" required><br><br>
-                    <label for="dateBirth">Date de Naissance :</label>
-                    <input type="date" id="dateBirth" name="dateBirth" min="1900/01/01" max="2006/12/01"><br><br>
-                    <label for="checkAdult">Certifiez-vous etre majeur ? :</label><br>
-                    <label for="checkAdult">Oui</label>
-                    <input type="checkbox" id="checkAdult" name="checkAdult" checked>
-                    <label for="checkAdult">Non</label>
-                    <input type="checkbox" id="checkAdult" name="checkAdult"><br><br>
-                    <label for="tel">Numero de Téléphone :</label>
-                    <input type="tel" id="tel" name="tel" placeholder="Ex: 00.11.22.33.44"><br><br>
-                    <label for="commentary">Avez-vous un commentaire :</label><br>
-                    <textarea name="commentary" id="commentary" cols="40" rows="10" placeholder="Avez vous une remarque? Faites-en nous part!"></textarea><br><br>
-                    <label for="dateCommentaire">Date de mon Commentaire :</label>
-                    <input type="date" id="dateCommentaire" name="dateCommentaire" min="1900/01/01" max="2024/12/01"><br><br>
-                    <label for="fichier">Ma Photo :</label>
-                    <input type="file" id="fichier" name="fichier"><br>
-                </fieldset><br>
-                <input type="submit" value="Submit">
-            </form>
+            <div class="exemple">
+                <form action="">
+                    <fieldset>
+                        <legend>Informations Personnelles :</legend>
+                        <h4><b>Créér votre Compte :</h4></b></h4><br>
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" id="prenom" name="prenom" placeholder="Ex: Jacques" max="20" min="2" required><br><br>
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="nom" placeholder="Ex: Dubois" max="20" min="2" required><br><br>
+                        <label for="mail">Adresse Mail :</label>
+                        <input type="text" id="mail" name="mail" placeholder="Ex: monMail@FAI.com" required><br><br>
+                        <label for="password">Mot de Passe :</label>
+                        <input type="password" id="password" name="password" placeholder="***********" required><br><br>
+                        <label for="password">Confirmer Mot de Passe :</label>
+                        <input type="password" id="password" name="password" placeholder="***********" required><br><br>
+                        <label for="dateBirth">Date de Naissance :</label>
+                        <input type="date" id="dateBirth" name="dateBirth" min="1900/01/01" max="2006/12/01"><br><br>
+                        <label for="checkAdult">Certifiez-vous etre majeur ? :</label><br>
+                        <label for="checkAdult">Oui</label>
+                        <input type="radio" id="checkAdult" name="checkAdult" checked>
+                        <label for="checkAdult">Non</label>
+                        <input type="radio" id="checkAdult" name="checkAdult"><br><br>
+                        <label for="tel">Numero de Téléphone :</label>
+                        <input type="tel" id="tel" name="tel" placeholder="Ex: 00.11.22.33.44"><br><br>
+                        <label for="commentary">Avez-vous un commentaire :</label><br>
+                        <textarea name="commentary" id="commentary" cols="40" rows="10" placeholder="Avez vous une remarque? Faites-en nous part!"></textarea><br><br>
+                        <label for="dateCommentaire">Date de mon Commentaire :</label>
+                        <input type="date" id="dateCommentaire" name="dateCommentaire" min="1900/01/01" max="2024/12/01"><br><br>
+                        <label for="fichier">Ma Photo :</label>
+                        <input type="file" id="fichier" name="fichier"><br>
+                    </fieldset><br><br>
+                    <label for="browsers">Mon Navigateur Internet préféré :</label>
+                    <input list="browsers">
+                    <datalist id="browsers">
+                        <option value="Internet Explorer">
+                        <option value="Firefox">
+                        <option value="Google Chrome">
+                        <option value="Opera">
+                        <option value="Safari">
+                    </datalist><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </body>
     </html>
