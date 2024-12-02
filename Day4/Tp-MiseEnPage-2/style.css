@@ -5,7 +5,7 @@ form{
     border: 2px solid black;
 }
 
-h1{
+h1, .button{
     text-align: center;
 }
 
@@ -14,18 +14,9 @@ label[for="name"], label[for="pass"]{
     margin-right: 20px;
 }
 
-/* label:nth-child(1), label:nth-child(2){
-    margin-left: 30px;
-    margin-right: 20px;
-} */
-
 .checkbox input{
     margin-left: 30px;
     margin-right: 10px;
-}
-
-.button{
-    text-align: center;
 }
 
 .button input{
