@@ -1,0 +1,44 @@
+form{
+    background-color: lightgrey;
+    width: 400px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+h1{
+    text-align: center;
+}
+
+label[for="name"], label[for="pass"]{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+/* label:nth-child(1), label:nth-child(2){
+    margin-left: 30px;
+    margin-right: 20px;
+} */
+
+.checkbox input{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.button{
+    text-align: center;
+}
+
+.button input{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 0px;
+}
+
+.button input:hover{
+    color: white;
+    background-color: black;
+}
+
+
+
+
