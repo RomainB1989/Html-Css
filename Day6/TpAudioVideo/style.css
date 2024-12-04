@@ -1,0 +1,11 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("./winter-9395_512.gif");
+
+    div{
+        text-align: center;
+    }
+}

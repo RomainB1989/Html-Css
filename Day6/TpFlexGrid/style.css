@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template: 80px 6fr 1fr / 2fr 1fr;
+}
+
+.container h1{
+    grid-area: 1 / 1 / 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .chatbox{
+    margin: 10px;
+    padding: 10px;
+    grid-area: 2 / 1 / 3 / 2;
+    border: solid 2px blue;
+    border-radius: 10px;
+    display: grid;
+}
+
+.container .chatbox p{
+    width: 50%;
+    padding: 10px;
+}
+
+
+.container .chatbox p:nth-child(even){
+    justify-self: end;
+    background-color: lightgrey;
+}
+
+.container .user{
+    grid-area: 2 / 2 / 3 / 2;
+    border: solid 2px blue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+}
+
+.container .user ul{
+    list-style-type: none;
+}
+
+.container .message form{
+    margin-left: 5px;
+    grid-area: 3 / 1 / 4 / 2;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.container .message form #pseudo{
+    border-radius: 10px;
+    width: 80%;
+}
+
+.container .message form label{
+    display: flex;
+    align-self: center;
+}
+
+
