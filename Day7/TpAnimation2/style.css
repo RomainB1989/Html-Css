@@ -1,0 +1,57 @@
+main{
+    margin-top: 300px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    margin: 30px;
+}
+
+div:nth-child(1) img:hover{
+    transition: 1s;
+    transform: scale(2);
+ 
+}
+
+div:nth-child(1) img:active{
+    transition: 1s;
+    transform: rotate(180deg);
+}
+
+div:nth-child(2) img:hover{
+    transition: 1s;
+    transform: skewX(40deg);
+}
+
+div:nth-child(2) img:active{
+    transition: 1s;
+    transform: translateX(200px);
+}
+
+p{
+    margin-top: 100px;
+    transition: 1s;
+    transform: scale(0.5) translateX(20px) rotate(35deg) skewY(10deg);
+}
+
+
+/* @keyframes scale {
+    from{
+        transform:scale(1);
+    }
+    to{
+        transform:scale(3);
+    }
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+    transform: rotate(360deg);
+    }
+} */

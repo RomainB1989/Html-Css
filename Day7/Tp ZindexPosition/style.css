@@ -1,0 +1,49 @@
+body{
+    font-size: 20px;
+    color: white;
+}
+
+.container{
+    border: solid 3px black;
+    width: 1500px;
+    height: 1000px;
+}
+
+#boite1{
+    position: absolute;
+    background-color: blue;
+    height: 200px;
+    width: 250px;
+    opacity: 50%;
+    z-index: 3;
+    left: 300px;
+}
+
+#boite2{
+    position: absolute;
+    background-color: green;
+    height: 150px;
+    width: 400px;
+    opacity: 50%;
+    z-index: 2;
+}
+
+#boite3{
+    position: absolute;
+    background-color: red;
+    height: 400px;
+    width: 250px;
+    opacity: 50%;
+    z-index: 4;
+    top: 130px;
+    left: 130px;
+}
+
+#boite4{
+    position: relative;
+    background-color: blueviolet;
+    height: 500px;
+    width: 200px;
+    opacity: 50%;
+    z-index: 1;
+}
