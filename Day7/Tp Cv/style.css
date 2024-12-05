@@ -58,6 +58,18 @@ h2{
             color: rgb(55, 96, 146);
         }
 
+        article{
+            aside{
+                color: white;
+                height: 80px;
+                width:80px;
+                background-color: rgb(55, 96, 146);
+                border-radius: 50%;
+            }
+
+
+        }
+
     }
 
     .rightColumn{
@@ -114,6 +126,11 @@ h2{
 }
 
 .italic{
+    font-style: italic;
+}
+
+.italic2Blue{
+    color: rgb(55, 96, 146);
     font-style: italic;
 }
 
